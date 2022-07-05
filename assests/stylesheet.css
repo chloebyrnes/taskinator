@@ -3,15 +3,15 @@
   }
   
   :root {
-    --primary: lavender;
-    --secondary: rgb(235, 192, 255);
-    --tertiary: rgb(168, 168, 233);
-    --grey: #333;
+    --primary: rgb(255, 255, 255);
+    --secondary: rgb(202, 198, 198);
+    --tertiary: rgb(255, 255, 255);
+    --grey: rgb(0, 0, 0);
     font-size: 62.5%;
   }
   
   body {
-    background: #ededed;
+    background: #a9aef5;
     color: var(--grey);
     margin: 0;
     padding: 0;
@@ -98,7 +98,7 @@
     list-style: none;
     padding: 15px;
     height: calc(100% - 50px);
-    background: rgb(196, 196, 196);
+    background: rgb(231, 231, 231);
     border-radius: 12px;
     border: 2px solid var(--grey);
   }
@@ -180,7 +180,7 @@
     -webkit-appearance: none;
     appearance: none;
     background-color: #fff;
-    background-image: url("../images/select-arrow.svg");
+    background-image: url("./arrow.png");
     background-repeat: no-repeat, repeat;
     background-position: right 0.7em top 50%, 0 0;
     background-size: 0.65em auto, 100%;
